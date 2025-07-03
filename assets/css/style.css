@@ -909,8 +909,8 @@ body {
     
 
     /* font-size */
-    --font-size-1: 10rem;
-    --font-size-2: 4.8rem;
+    --fontSize-1: 10rem;
+    --fontSize-2: 4.8rem;
 
 
     /* spacing */
@@ -988,3 +988,14 @@ body {
     .footer-top .container { grid-template-columns: 1fr 0.6fr 1fr 0.8fr;}
 }
 
+
+/* Responsive for larger than 1400px */
+@media (min-width: 1400px) {
+
+  /* REUSED styles */
+  .container { max-width: 1320px; }
+
+  /* HERO */
+  .hero .container { gap: 60px; }
+
+}
