@@ -31,10 +31,14 @@ addEventOnElements(navLinks, 'click', closeNav);
 
 
 
-// HEADER
+// HEADER and back-top-button
 const header = document.querySelector('[data-header]');
+const backTopBtn = document.querySelector('[data-back-top-btn]')
+
 window.addEventListener('scroll', function () {
   header.classList[window.scrollY > 50 ? "add" : "remove"]("active");
+
+  backTopBtn.classList[window.scrollY > 50 ? "add" : "remove"]("active");
 })
 
 
