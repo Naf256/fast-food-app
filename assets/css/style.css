@@ -998,4 +998,8 @@ body {
   /* HERO */
   .hero .container { gap: 60px; }
 
+  :is(.schedule, .reservation) .container {
+    gap: 120px;
+  }
 }
+
