@@ -1,6 +1,6 @@
 Crispy - Chicken Burgers
 
-This is a food html template made by codewithsadee
+This is a food html template made by nafis_bin
 
 
 #---------- HEADER ----------#
@@ -37,7 +37,8 @@ aria-label = open menu
 
 Crispy Chicken Burgers
 
-Sit amet consectetur adipiscing Malesuada morbigrave ullamore alesuada nec pulvinar nisle
+Sink your teeth into our irresistibly crispy, juicy chicken burgers.
+Freshly made, bursting with flavor, and crafted to satisfy every craving
 
 alt = arrow
 
@@ -138,7 +139,7 @@ Booking Table
 
 Make A Reservations
 
-Sit amet consectetur adipiscing elitsue risus mauris adipiscing phasellus aene ante orcirat
+Fill out the form below to book your spot and enjoy our crispy chicken burgers hot and fresh
 
 Person
 <ion-icon name="person-outline"></ion-icon>
@@ -161,7 +162,7 @@ alt = shape
 
 alt = Crispy home
 
-Sit amet consectetur adipiscing elitsue risus mauris adipis
+Satisfy your cravings with our juicy, golden-crispy chicken burgers made fresh to order!
 
 placeholder = Email Address
 
@@ -197,7 +198,7 @@ hello@crispy.com
 Location :
 119 Tanglewood Lane Gulfport, MS 39503
 
-&copy; 2023 codewithsadee, All Rights Reserved
+&copy; 2023 nafis_bin, All Rights Reserved
 
 Setting & Privacy
 Faqs
