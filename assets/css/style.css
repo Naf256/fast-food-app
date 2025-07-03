@@ -114,6 +114,7 @@ button {
 
 input { 
   width: 100%;
+  outline: none;
 }
 
 button {
@@ -226,6 +227,11 @@ body {
   border-block-end: 1px dashed currentColor;
 }
 
+.has-bg-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -456,13 +462,81 @@ body {
 }
 
 .rating-text { margin-inline-start: 10px; }
+
+
+
 /*-----------------------------------*\
   #SCHEDULE
 \*-----------------------------------*/
 
+.schedule-banner { display: none; }
+
+.schedule { background-color: var(--bg-sinopia-alpha-7);}
+
+.schedule .section-title { margin-block-end: 50px; }
+
+
+.schedule-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px 30px;
+  background-image: url('../images/schedule-item-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.schedule-item:not(:last-child) { margin-block-end: 20px; }
+
+.schedule-item .title {
+  color: var(--text-white);
+  font-size: var(--fontSize-4);
+}
+
+.schedule-item .separator {
+  border-color: var(--border-white);
+}
+
 /*-----------------------------------*\
   #RESERVATION
 \*-----------------------------------*/
+.reservation .container {
+  display: grid;
+  gap: 50px;
+}
+
+.reservation .section-subtitle {
+  font-size: var(--fontSize-7);
+}
+
+.reservation .section-text { margin-block: 20px 30px; }
+
+.booking-form {
+  display: grid;
+  gap: 30px;
+}
+
+.booking-form .input-wrapper {
+  background-color: var(--bg-isabelline);
+  color: var(--text-black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+  border: 1px solid var(--border-platinum);
+  border-radius: var(--radius-5);
+}
+
+.booking-form .input-wrapper ::placeholder { font-weight: var(--weight-semiBold);}
+
+.booking-form .input-wrapper ion-icon {
+  color: var(--text-black);
+  font-size: 2rem;
+  --ionicon-stroke-width: 40px;
+}
+
 
 /*-----------------------------------*\
   #FOOTER
