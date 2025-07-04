@@ -27,7 +27,7 @@ This is a modern and responsive website for a fictional fast food restaurant cal
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Naf256/fast-food-app.git
+git clone https://github.com/nafis-bin/fast-food-app.git
 ```
 
 Open the index.html file in your browser.
